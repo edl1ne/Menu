@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Float</title>
+</head>
+<body class="page-float-inline-block-flex">
+	<header class="header-menu">
+		<div class="container-header">
+			<ul class="header-list">
+				<li>
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="#">gallery</a>
+				</li>
+				<li>
+					<a href="#">homeworks</a>
+					<ul class="header-second-list">
+						<li><a href="table.html" target="_blank">table</a></li>
+						<li><a href="float.html" target="_blank">float</a></li>
+						<li><a href="inline.html" target="_blank">inline-block</a></li>
+						<li>
+                            <a href="#">flex</a>
+                            <ul class="header-flex">
+                                <li><a href="flex.html" target="_blank">flex block</a></li>
+                            </ul>
+                        </li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<main>
+        <div class="container">
+            <!--First line-->
+            <div class="outline clearfix bg-lightblue">
+                <div class="outline w-400 h-400 float">1</div>
+                <div class="outline w-400 h-400 float">2</div>
+                <div class="outline w-400 h-400 float">3</div>
+            </div>
+            <!--Second line-->
+            <div class="outline clearfix bg-darkgray">
+                <div class="float">
+                    <div class="outline w-800 h-200">4</div>
+                    <div class="outline w-800 h-200">5</div>
+                </div>
+                <div class="float">
+                    <div class="outline w-400 h-133">6</div>
+                    <div class="outline w-400 h-133">7</div>
+                    <div class="outline w-400 h-133">8</div>
+                </div>
+            </div>
+            <!--Third line-->
+            <div class="outline clearfix bg-lightcoral">
+                <div class="outline w-400 h-400 float">9</div>
+                <div class="outline w-800 float">
+                    <div class="outline h-200">10</div>
+                    <div class="outline clearfix">
+                        <div class="outline w-400 h-200 float">11</div>
+                        <div class="outline w-400 float">
+                            <div class="outline h-100">12</div>
+                            <div class="outline h-100">13</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</main>
+</body>
+</html>
